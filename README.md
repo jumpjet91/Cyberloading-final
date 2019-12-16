@@ -40,7 +40,7 @@ Adobe Encoder (WORK)
 
 # Video DEMO
 ```
-https://streamable.com/2zii7
+https://streamable.com/dgnbs
 ```
 # Legal
 ### License
