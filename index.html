@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="UTF-8"/><title>LoadingScreen</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet">
+		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.css'>
+		<link href="style.css" rel="stylesheet" type="text/css" />
+	</head>
+	<body>
+		<div id="bg_alt"></div>
+		<div class="videogrid" id="bg"></div>
+				
+		<video id="videobg" autoplay loop muted>
+			<source src="background.mp4" type="video/mp4">
+		</video>
+					
+		<div id="logo"></div>
+		<div class="logo-alt" id="logo-alt"></div>
+		
+		<canvas id="fumo"></canvas>
+		<canvas id="app"></canvas>
+		
+		<div class="footer" id="fix_box" style="border: 2px solid #cdd769; color:#cdd769">
+			<div id="loader">
+			  <div id="spinner"><i class="fa fa-spinner fa-pulse fa-fw"></i></div>
+			  <h2 id="loading-text" style="color: #00ea19;"><div id="txt-load"></div></h2>
+			  <br>			  
+			</div>
+			<div id="discord"></div>			
+		</div>	
+	
+		<div class="musica" id="fix_box1" style="border: 2px solid #cdd769; color:#cdd769">
+			<div id="txt-play"></div>	
+			<div class="row" style="font-size:2em;">
+			  <div class="column">
+				<div id="avvio" data-info="1" ><i class="far fa-pause-circle"></i></div>
+			  </div>
+			  <div class="column">
+				<i class="fas fa-headphones-alt"></i>  <input type="range" id="volume" min="0" max="1" step="0.01" value="1" />
+			  </div>
+			</div>
+		</div>
+			
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/three.js/107/three.js'></script>
+		<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>			
+		<script src='http://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js'></script>
+		<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/bas.js'></script>
+		<script src='https://s3-us-west-2.amazonaws.com/s.cdpn.io/175711/OrbitControls-2.js'></script>
+		<script src="settings.js"></script>
+		<script src="app.js"></script>
+		<script src="smoke.js"></script>
+		<script src="logo.js"></script>
+		<script src="player.js"></script>
+	</body>
+</html>
+
+<!--
+Powered by jumpjet
+Fivem profile https://forum.fivem.net/u/jumpjet/
+Discord BlackFox91#0053
+Discord-ID:221256790493495296
+-->
