@@ -27,7 +27,8 @@ start cyberload
 ```
 
 ## Setting 
-All setting you can find all in settings.js
+All setting you can find all in `settings.js`
+
 For video change or replace background.mp4 (file)
 
 ## Bug-Problem 
