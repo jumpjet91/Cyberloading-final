@@ -12,7 +12,7 @@ git clone https://github.com/jumpjet91/Cyberloading-final.git cyberload
 ### Manually
 - Download https://github.com/jumpjet91/Cyberloading-final/archive/master.zip
 - UnZip
-- Replace folder as cyberload
+- Replace folder as `cyberload`
 - Put it in the `resources` directory
 
 ## Installation
@@ -31,7 +31,7 @@ All setting you can find all in settings.js
 For video change or replace background.mp4 (file)
 
 ## Bug-Problem 
-If you change file name, remember to add in __resource.lua
+If you change file name, remember to add in `__resource.lua`
 
 If don't start video it's a FiveM bug. 
 FFMEG encoder (NOT WORK for video but work for convert OGG)
