@@ -1,10 +1,12 @@
-resource_manifest_version '77731fab-63ca-442c-a67b-abc70f28dfa5'
+fx_version 'adamant'
+game 'gta5'
+
 files {
-    'background.png',
-    'logo.png',
+	'background.png',
+	'logo.png',
 	'discord.png',
 	'audio.ogg',
-    'background.mp4',
+	'background.mp4',
 	
 	'smoke.png',
 	'smoke-2.png',
@@ -12,11 +14,11 @@ files {
 	'three.js',
 	'settings.js',
 	'app.js',
-    'player.js',
+	'player.js',
 	'smoke.js',
 	'logo.js',
 	'style.css',
-    'index.html'
+	'index.html'
 }
 
 loadscreen 'index.html'
