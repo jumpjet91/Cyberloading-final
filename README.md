@@ -32,11 +32,12 @@ All setting you can find all in `settings.js`
 For video change or replace background.mp4 (file)
 
 ## Bug-Problem 
-If you change file name, remember to add in `__resource.lua`
+If you change file name, remember to add in `fxmanifest.lua` (old version `__resource.lua`)
 
 If don't start video it's a FiveM bug. 
-FFMEG encoder (NOT WORK for video but work for convert OGG)
-Adobe Encoder (WORK)
+FFMEG encoder (NOT WORK for video but WORK ONLY for convert OGG music)
+Adobe Encoder  (WORK)
+SonyVegas (WORK not tested by me)
 
 # Video DEMO
 ```
